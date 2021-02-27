@@ -1,0 +1,1824 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison."
+            ]
+        },
+        {
+            "tag": "Cuts",
+            "patterns": [
+                "What to do if Cuts?",
+                "How to cure Cuts?",
+                "Which medicine to apply for Cuts?",
+                "what to apply on cuts?",
+                "Cuts"
+            ],
+            "responses": [
+                "Wash the cut properly to prevent infection and stop the bleeding by applying pressure for 1-2minutes until bleeding stops. Apply Petroleum Jelly to make sure that the wound is moist for quick healing. Finally cover the cut with a sterile bandage. Pain relievers such as acetaminophen can be applied."
+            ]
+        },
+        {
+            "tag": "Food Poisoning",
+            "patterns": [
+                "What can you do to help relieve symptoms of food poisoning?",
+                "How can you prevent food poisoning?",
+                "what to do if we are suffering from food poisoning?",
+                "Food Poisoning",
+                "what are the medicines to treat food poisoning?",
+                "How is food poisoning treated?"            ],
+            "responses": [
+                "1.Drink broth and electrolytes to replace fluids you have lost. \n2.Try Popsicles® or other frozen juice. \n3.Take small bites of bland food such as toast or crackers when you feel ready to start eating again.4.Get lots of rest."
+            ]
+        },
+        {
+            "tag": "Abrasions",
+            "patterns": [
+                "how do you treat abrasions?",
+                "Do Abrasions cause scars?",
+                "Abrasions",
+                "what to do if abrasions?",
+                "Which medicine to apply for abrasions?",
+                "How to cure abrasions?"
+            ],
+            "responses": [
+                "Begin with washed hands.Gently clean the area with cool to lukewarm water and mild soap. Remove dirt or other particles from the wound using sterilized tweezers.For a mild scrape that’s not bleeding, leave the wound uncovered.If the wound is bleeding, use a clean cloth or bandage, and apply gentle pressure to the area to stop any bleeding.Cover a wound that bled with a thin layer of topical antibiotic ointment, like Bacitracin, or a sterile moisture barrier ointment, like Aquaphor. Cover it with a clean bandage or gauze. Gently clean the wound and change the ointment and bandage once per day.Watch the area for signs of infection, like pain or redness and swelling. See your doctor if you suspect infection."
+            ]
+        },
+        {
+            "tag": "stings",
+            "patterns": [
+                "How do you treat Sting?",
+                "Stings",
+                "What to do if you get a sting?",
+                "Which medicine to apply if sting?"
+            ],
+            "responses": [
+                "Remove any stingers immediately. Some experts recommend scraping out the stinger with a credit card. Applying ice to the site may provide some mild relief. Apply ice for 20 minutes once every hour as needed. Wrap the ice in a towel or keep a cloth between the ice and skin to keep from freezing the skin. Taking an antihistamine such as diphenhydramine (Benadryl) or a nonsedating one such as loratadine (Claritin) will help with itching and swelling. Take acetaminophen (Tylenol) or ibuprofen (Motrin)for pain relief as needed. Wash the sting site with soap and water. Placing hydrocortisone cream on the sting can help relieve redness, itching, and swelling."
+            ]
+        },
+        {
+            "tag": "Splinter",
+            "patterns": [
+                "How to remove Splinters",
+                "How to cure Splinters?",
+                "What to do if I have splinters?",
+                "Splinter",
+                "How do you bring a splinter to the surface?"
+            ],
+            "responses": [
+                "1. SOAK IT IN EPSOM SALTS. Dissolve a cup of the salts into a warm bath and soak whatever part of the body has the splinter. Failing that, you can also put some of the salts onto a bandage pad and leave it covered for a day; this will eventually help bring the splinter to the surface. \n2. VINEGAR OR OIL. Another simple way to draw out that stubborn splinter is to soak the affected area in oil (olive or corn) or white vinegar. Just pour some in a bowl and soak the area for around 20 to 30 minutes,"
+            ]
+        },
+        {
+            "tag": "Sprains",
+            "patterns": [
+                "How do you treat a sprain?",
+                "what to do if i get a sprain?",
+                "Which cream to apply if i get a sprain?",
+                "Sprains",
+                "Which medicine to apply if I get a sprain?"
+            ],
+            "responses": [
+                "Use an ice pack or ice slush bath immediately for 15 to 20 minutes and repeat every two to three hours while you're awake. To help stop swelling, compress the ankle with an elastic bandage until the swelling stops. In most cases, pain relievers — such as ibuprofen (Advil, Motrin IB, others) or naproxen sodium (Aleve, others) or acetaminophen (Tylenol, others) are enough to manage the pain of a sprained ankle."
+            ]
+        },
+        {
+            "tag": "Strains",
+            "patterns": [
+                "How do you treat a strain?",
+                "Strains",
+                "what to do if i get a strain?",
+                "Which cream to apply if i get a strain?",
+                "Which medicine to apply if I get a strain?",
+                "How do you diagnose a strain?",
+                "Is heat or ice better for a pulled muscle?"
+            ],
+            "responses": [
+                "Rest,Ice,Compression and Elevation can be used to cure strains. Avoid using your muscle for a few days, especially if movement causes an increase in pain and also Apply ice immediately after injuring your muscle. This will minimize swelling. Don’t put ice directly on your skin. Use an ice pack or wrap ice in a towel. To reduce swelling, wrap the affected area with an elastic bandage until swelling comes down."
+            ]
+        },
+        {
+            "tag": "Fever",
+            "patterns": [
+                "How do you treat a mild Fever?",
+                "what to do if i get a mild fever?",
+                "Which medicine to take if I get a mild fever?",
+                "fever"
+            ],
+            "responses": [
+                "To treat a fever at home: \n1)Drink plenty of fluids to stay hydrated. \n2)Dress in lightweight clothing. \n3)Use a light blanket if you feel chilled, until the chills end. \n4)Take acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others). \n5) Get medical help if the fever lasts more than five days in a row."
+            ]
+        },
+        {
+            "tag": "Nasal Congestion",
+            "patterns": [
+                "How do you treat nasal Congestion?",
+                "what to do if i get a nasal congestion?",
+                "Which medicine to take if I have a nasal congestion?",
+                "what to do if i have a blocked nose?",
+                "How do you treat a blocked nose?",
+                "Nasal Congestion",
+                "How long does nasal congestion last?"
+            ],
+            "responses": [
+                "When you’re stuffed up, focus on keeping your nasal passages and sinuses moist. To keep your nasal passages moist, you can: \n 1)Use a humidifier or vaporizer. \n 2)Drink lots of fluids. This will thin out your mucus, which could help prevent blocked sinuses.\n 3)Place a warm, wet towel on your face. It may relieve discomfort and open your nasal passages."
+            ]
+        },
+        {
+            "tag": "Cough",
+            "patterns": [
+                "How to cure cough?",
+                "How do you treat cough?",
+                "what to do if i get a cough?",
+                "Which medicine to take if I get cough?",
+                "Cough",
+                "How do you get rid of cough?"
+            ],
+            "responses": [
+                "1) Honey:- Use honey to treat a cough, mix 2 teaspoons (tsp) with warm water or an herbal tea. Drink this mixture once or twice a day. Do not give honey to children under 1 year of age. \n2) Ginger:- Brew up a soothing ginger tea by adding 20–40 grams (g) of fresh ginger slices to a cup of hot water. Allow to steep for a few minutes before drinking. Add honey or lemon juice to improve the taste and further soothe a cough. \n3) Fluids:- Staying hydrated is vital for those with a cough or cold. Research indicates that drinking liquids at room temperature can alleviate a cough, runny nose, and sneezing."
+            ]
+        },
+        {
+            "tag": "Sore Throat",
+            "patterns": [
+                "How do you treat sore throat?",
+                "what to do if i get a sore throat?",
+                "Sore Throat",
+                "Which medicine to take if I get a sore throat?",
+                "How to cure sore throat?"
+            ],
+            "responses": [
+                "1) Make sure you get plenty of rest and drink a lot of fluids. \n2)Inhale steam,Run hot water in a sink.Drape a towel over you to trap the steam, and have the person lean over the sink with the water running. Tell him to breathe deeply through his mouth and nose for 5 to 10 minutes. Repeat several times a day. \n3)Have him sip chicken broth or warm tea with honey. Don’t give honey to a child under 12 months of age."
+            ]
+        },
+        {
+            "tag": "Gastrointestinal problems",
+            "patterns": [
+                "How do you treat gas problems?",
+                "what to do if i have Gastrointestinal problems?",
+                "Which medicine to take if I get gas problem?",
+                "How to cure Gas problems?",
+                "Gastric",
+                "Gas problem"
+            ],
+            "responses": [
+                "1) Replenish body fluids \n2)Do not take antidiarrheal drugs or laxatives or pain medication, unless specified by a medical professional.\n3)Taking antacids may help, per recommendation of a healthcare professional. \n4)If prone to frequent heartburns, seek medical help. \n5)Taking meals that are not spicy regularly, can relieve ulcer pains. \n6)Seek medical help, if conditions persist or continue to worsen"
+            ]
+        },
+        {
+            "tag": "Skin problems",
+            "patterns": [
+                "How do you treat Skin problems?",
+                "what to do if i get a skin allergy?",
+                "Which medicine to take if I get a skin allergy?",
+                "How to cure skin allergy?",
+                "Skin problems"
+            ],
+            "responses": [
+                "1)Hydrocortisone cream.\n 2)Ointments like calamine lotion.\n 3)Antihistamines.\n 4)Cold compresses.\n 5)Oatmeal baths. \n6)Talk to your doctor about what's best for your specific rash."
+            ]
+        },
+        {
+            "tag": "Abdonominal Pain",
+            "patterns": [
+                "How do you treat Abdonominal Pain?",
+                "what to do if i get a Abdonominal Pain?",
+                "Which medicine to take if I get a Abdonominal Pain?",
+                "How to cure Abdonominal Pain?"
+            ],
+            "responses": [
+                "1)Provide clear fluids to sip, such as water, broth, or fruit juice diluted with water.\n 2)Serve bland foods, such as saltine crackers, plain bread, dry toast, rice, gelatin, or applesauce.\n 3)Avoid spicy or greasy foods and caffeinated or carbonated drinks until 48 hours after all symptoms have gone away. "
+            ]
+        },
+        {
+            "tag": "Bruises",
+            "patterns": [
+                "How do you treat Bruises?",
+                "what to do if i get a Bruise?",
+                "Which medicine to take if I get a Bruise?",
+                "How to cure Bruises?"
+            ],
+            "responses": [
+                "1)Ice the bruise with an ice pack wrapped in a towel.\n 2)Leave it in place for 10 to 20 minutes.\n 3)Repeat several times a day for a day or two as needed. \n4)Compress the bruised area if it is swelling, using an elastic bandage. "
+            ]
+        },
+        {
+            "tag": "Broken Toe",
+            "patterns": [
+                "How do you treat a Broken Toe?",
+                "what to do if i get a Broken Toe?",
+                "Which medicine to take if I get a Broken Toe?",
+                "How to cure Broken Toe?"
+            ],
+            "responses": [
+                "1)To help decrease pain and swelling in a broken toe, elevate the foot, ice the injury, and stay off the foot. \n2)Depending on the severity of the fracture, the toe may need to be put back into place (reduced), and some compound toe fractures may require surgery.\n3) Most broken toes heal without complications in six weeks."
+            ]
+        },
+        {
+            "tag": "Choking",
+            "patterns": [
+                "How do you treat Choking?",
+                "what to do if i get a Choke?",
+                "Which medicine to take if I get Choked?",
+                "How to cure Choking?",
+                "Choking"
+            ],
+            "responses": [
+                "1)Encourage them to keep coughing to try to clear the blockage. \n2)Ask them to try to spit out the object if it's in their mouth. \n3)If coughing doesn't work, start back blows and Abdonominal thrusts"
+            ]
+        },
+        {
+            "tag": "Wound",
+            "patterns": [
+                "How do you treat a wound?",
+                "what to do if i get a Wound?",
+                "Which medicine to take if I get wounded?",
+                "How to cure a wound?"
+            ],
+            "responses": [
+                "1)Rinse the cut or wound with water and apply pressure with sterile gauze, a bandage, or a clean cloth.\n 2)If blood soaks through the bandage, place another bandage on top of the first and keep applying pressure.\n 3)Raise the injured body part to slow bleeding. \n4)When bleeding stops, cover the wound with a new, clean bandage."
+            ]
+        },
+        {
+            "tag": "Diarrhea",
+            "patterns": [
+                "How do you treat Diarrhea?",
+                "what to do if i get Diarrhea?",
+                "Which medicine to take if I get Diarrhea?",
+                "How to cure Diarrhea?"
+            ],
+            "responses": [
+                "1)Hydrating the body is essential for recovering from diarrhea.This causes the body to lose electrolytes such as sodium and chloride.\n 2)It is highly recommended to avoid dairy products, as they may worsen diarrhea in some people.\n 3)However, if diarrhea lasts for more than 2 days, seek medical advice to avoid complications."
+            ]
+        },
+        {
+            "tag": "Frost bite",
+            "patterns": [
+                "How do you treat a Frost bite?",
+                "what to do if i get a Frost bite?",
+                "Which medicine to take if I get a Frost bite?",
+                "How to cure Frost bite?"
+            ],
+            "responses": [
+                "1)Help raise your body temperature in lukewarm water or by applying warm, wet packs for up to half an hour.\n 2)Dress your frostbitten or wounded skin with sterile bandages, keeping your fingers and toes separated to avoid rubbing.\n 3) Consume antibiotics and pain relievers, such as ibuprofen"
+            ]
+        },
+        {
+            "tag": "Heat Exhaustion",
+            "patterns": [
+                "How do you treat Heat Exhaustion?",
+                "what to do if i feel Exhausted due to heat?",
+                "Which medicine to take if I get Exhausted?",
+                "Heat Exhaustion",
+                "heat cramps",
+                "how to cure heat rash?",
+                "How to cure Heat Exhaustion?"
+            ],
+            "responses": [
+                "1)move the individual to a cool area if indoors or to a cool, shady area if outdoors.\n 2)Cool head, face, and neck with cold ice packs, cold cloths or cold water.\n3) Give the person cool water to drink in small sips.  "
+            ]
+        },
+        {
+            "tag": "Heat Stroke",
+            "patterns": [
+                "How do you treat Heat Stroke?",
+                "what to do if i get a Heat Stroke?",
+                "Which medicine to take if I get Stroke?",
+                "How to cure a Heat Stroke?"
+            ],
+            "responses": [
+                "1)The best treatment for heat stroke is immediate cooling in an ice bath.\n 2)Loosen or remove the person’s clothing. \n 3)Wet the person’s skin with cool water, place cool cloths or ice all over the body, spray the person with a garden hose or soak the person’s clothes with cold water. "
+            ]
+        },
+        {
+            "tag": "Heat Rash",
+            "patterns": [
+                "How do you treat Heat Rah?",
+                "what to do if i get a Heat Rash?",
+                "Which medicine to take if I get Rash?",
+                "How to cure a Heat Rash?"
+            ],
+            "responses": [
+                "1)Talcum powder will soothe heat rash.\n 2)Do not apply lotions or ointments.  \n 3)To prevent heat rash from coming back, the skin must be kept dry. "
+            ]
+        },
+        {
+            "tag": "Insect Bites",
+            "patterns": [
+                "How do you treat a Insect Bite?",
+                "what to do if a insect bites me?",
+                "Which medicine to take if I get bitten by a insect?",
+                "How to cure insect bite?"
+            ],
+            "responses": [
+                " Soothe them with an ice cube or a cold wash clotg, calamine lotion, a paste of baking soda, use hydrocortisone ointment."
+            ]
+        },
+        {
+            "tag": "nose bleed",
+            "patterns": [
+                "How do you treat a bleeding nose?",
+                "what to do if i my nose is bleeding?",
+                "Which medicine to take if I get nose bleed?",
+                "Epistaxis",
+                "How to cure nose bleeding?",
+                "nose bleed"
+            ],
+            "responses": [
+                "1)Gauze, special nasal sponges or foam or an inflatable latex balloon is inserted into your nose.\n2)A local anesthetic is sprayed in the nostril first to numb the inside of your nose.\n3)Reducing or stopping the amount of blood thinning medications can be helpful."
+            ]
+        },
+        {
+            "tag": "Pulled Muscle",
+            "patterns": [
+                "How do you treat a Pulled Muscle?",
+                "what to do if my muscle is pulled?",
+                "Which medicine to take if I got pulled muscle?",
+                "How to cure a pulled muscle?"
+            ],
+            "responses": [
+                " 1)Using heat or cold press.\n2) Using a splint to immobilize the affected joint and allow healing.\n 3)Strengthening and conditioning exercises.\n 4)Massages"
+            ]
+        },
+        {
+            "tag": "Rectal bleeding",
+            "patterns": [
+                "How do you treat Rectal Bleeding?",
+                "what to do if i get a Rectal Bleeding?",
+                "Which medicine to take if I get Rectal Bleeding?",
+                "How to cure Rectal Bleeding?"
+            ],
+            "responses": [
+                "1)A physical exam of the rectum and anus.\n 2)Conditions like anal fissures can go away on their own over time or be treated with ointments.\n 3)Antibiotics can prevent or treat according to prescription."
+            ]
+        },
+        {
+            "tag": "Sun Burn",
+            "patterns": [
+                "How do you treat Sun Burn?",
+                "what to do if i get a Sun Burn?",
+                "Which medicine to take if I get Sun Burn?",
+                "How to cure a Sun Burn?",
+                "Sun allergies"
+            ],
+            "responses": [
+                "1)Seek shade during the hours between 10 a.m. and 4 p.m., the hours of maximum sun exposure.\n 2)Use sunscreen, particularly a type that is SPF 30 or greater, is broad spectrum \n 3)Keep the affected areas moistened to help with some symptoms."
+            ]
+        },
+        {
+            "tag": "Testicle Pain",
+            "patterns": [
+                "How do you treat Testicle Pain?",
+                "what to do if i get a Testicle Pain?",
+                "Which medicine to take if I get a Testicle Pain?",
+                "How to cure Testicle Pain?"
+            ],
+            "responses": [
+                "1)You may choose to avoid certain activities that trigger discomfort. \n 2) Applying cold packs to the scrotum may help you feel better. \n 3) Acetaminophen or ibuprofen may take the edge off any minor scrotal or testicle aching that becomes distracting."
+            ]
+        },
+        {
+            "tag": "Vertigo",
+            "patterns": [
+                "How do you treat a inner ear disorder?",
+                "what to do if i suffer from a Vertigo?",
+                "Which medicine to take if I get Vertigo?",
+                "How to cure a inner ear disorder?",
+                "inner ear disorder"
+            ],
+            "responses": [
+                "1)Slowly move into the good-ear-down position and wait for a minute.\n 2)Next, slowly move into a face-down position and slide to the foot of the bed.\n3)Keep your head down until you reach the end of the bed and are kneeling or standing on the floor.\n 4)Slowly bring your head backward into an upright position. (Hold on to the bed at all times.) "
+            ]
+        },
+        {
+            "tag": "Normal Bleeding",
+            "patterns": [
+                "How do you treat bleeding?",
+                "what to do if i get a Bleeding?",
+                "Which medicine to take if I get bleeding?",
+                "How to cure Bleeding?"
+            ],
+            "responses": [
+                "At the time of a  bleed, you can treat the pain using the “RICE” (Rest, Ice, Compression, Elevation) protocol.\n 2)Consume common pain relievers such as aspirin, ibuprofen and naproxen can aggravate bleeding."
+            ]
+        },
+        {
+            "tag": "Eye Injury",
+            "patterns": [
+                "How do you treat an eye Injury?",
+                "what to do if i get a eye Injury?",
+                "Which medicine to take if I injured my eye?",
+                "How to cure injured eye?"
+            ],
+            "responses": [
+                "1)Cold compresses: Icepacks reduce swelling and relieve pain.\n 2)Eye flushing: Flush chemicals and other irritants with clean water for about 15 minutes.\n 3)Eyedrops: Your provider may prescribe eyedrops to help your eye heal.\n 4)Eye patch: By covering your eye, you’ll allow it to rest while it’s healing. "
+            ]
+        },
+        {
+            "tag": "Burning mouth ",
+            "patterns": [
+                "How to treat Burning mouth ??",
+                "Burning mouth ",
+                "Give the name of medicine to heal the Burning mouth  ??",
+                "How to reduce the Burning mouth ?"
+            ],
+            "responses": [
+                "1)melting ice chips in the mouth or chewing gum helps improve or reduce the discomfort.\n2)Drink chill water \n3)Intake vitamin b12 and iron enrich food."
+            ]
+        },
+        {
+            "tag": "Chemical Burn",
+            "patterns": [
+                "How do you treat a chemical burn?",
+                "what to do if i get a Chemical Burn?",
+                "Which medicine to take if I get burn due to chemicals?",
+                "How to cure Chemical Burn?"
+            ],
+            "responses": [
+                "1)Use ice cold water to rinse the burn.\n2) Seek your doctors help to cure it. "
+            ]
+        },
+        {
+            "tag": "Teeth",
+            "patterns": [
+                "How do you treat broken Teeth ?",
+                "what to do if my Teeth got broken?",
+                "Which medicine to take if I get broken teeth?",
+                "cure broken teeth?"
+            ],
+            "responses": [
+                "Consume pain relievers, such as ibuprofen "
+            ]
+        },
+        {
+            "tag": "seizure",
+            "patterns": [
+                "How do you treat a seizure?",
+                "what to do if i get a seizure?",
+                "Which medicine to take if I get seizure?",
+                "How to cure seizure?"
+            ],
+            "responses": [
+                "1)Loosen clothing.\n 2)Support your  head with a pillow or soft object.\n 3)If the seizure continues for greater than two minutes, call your doctor. "
+            ]
+        },
+        {
+            "tag": "Fainting",
+            "patterns": [
+                "How do you treat Faint?",
+                "what to do if i feel like Fainting?",
+                "Which medicine to take if I get a Faint?",
+                "How to cure Fainting?"
+            ],
+            "responses": [
+                "Eating a healthy diet with fewer carbohydrates and smaller meals.\nDrinking more water/rehydration drink and avoiding alcohol.\nGetting up slowly after you’ve been sitting or lying down.\nIncrease your salt intake slightly because sodium raises blood pressure.\nEat smaller, healthy meals and limit carbohydrates."
+            ]
+        },
+        {
+            "tag": "Headache",
+            "patterns": [
+                "How do you treat a mild Headache?",
+                "what to do if i get a mild Headache?",
+                "Which medicine to take if I have a mild headache?",
+                "How to cure a mild headache?"
+            ],
+            "responses": [
+                "1)Give ibuprofen (Advil, Motrin), aspirin, or acetaminophen (Tylenol) for pain.\n 2) Avoid ibuprofen and other NSAIDs if the person has heart failure or kidney failure. Do not give aspirin to a child under age 18."
+            ]
+        },
+        {
+            "tag": "Cold",
+            "patterns": [
+                "How do you treat a Cold?",
+                "what to do if i get a mild Cold?",
+                "Which medicine to take if I have a Cold?",
+                "How to cure Cold?"
+            ],
+            "responses": [
+                "1)Keeping hydrated is absolutely vital to help 'flush' out the cold, as well as to break down congestion and keep your throat lubricated.\n 2)Vitamin C is extremely helpful when fighting infection, so at the first sign of a cold be sure to increase your intake by eating plenty of berries, citrus fruits, papayas, broccoli and red peppers which will help keep you protected.\n 3)When it comes to combating a cold,Vitamin D is essential in helping to regulate immune response."
+            ]
+        },
+        {
+            "tag": "Rash",
+            "patterns": [
+                "How do you treat Rashes?",
+                "what to do if i get a Rash?",
+                "Which medicine to take if I have a Rash?",
+                "How to cure Rash?"
+            ],
+            "responses": [
+                "1)Olive oil helps in healing and promotes skin renewal given it is packed with vitamin E and antioxidants. It also soothes the skin and reduces itching.\n 2)Baking soda is useful in drying skin rashes as also in relieving itching and inflammation.\n 3)Apply Aloe Vera,Thanks to its antibacterial, antifungal, anti-inflammatory and emollient properties\n 4)Use talcum powder."
+            ]
+        },
+        {
+            "tag": "snake bite",
+            "patterns": [
+                "How do you treat a snake bite?",
+                "what to do if i get a snake bite?",
+                "Which medicine to take if I get a snake bite?",
+                "How to cure snake bite?",
+                "i got bit by a snake"
+            ],
+            "responses": [
+                "While waiting for medical help: 1)Move the person beyond striking distance of the snake.\n 2)Have the person lie down with wound below the heart. \n3)Keep the person calm and at rest, remaining as still as possible to keep venom from spreading. \n4)Cover the wound with loose, sterile bandage.\n 5)Remove any jewelry from the area that was bitten.\n 6)Remove shoes if the leg or foot was bitten."
+            ]
+        },
+        {
+            "tag": "animal bite",
+            "patterns": [
+                "How do you treat a animal bite?",
+                "How do you treat a monkey bite?",
+                "How do you treat a dog bite?",
+                "what to do if i get a animal bite?",
+                "Which medicine to take if I get a monekey bite?",
+                "How to cure dog bite?",
+                "i got bit by a dog"
+            ],
+            "responses": [
+                "1)Wash the wound with dettol and warm water.\n 2)Gently press a clean cloth over the wound to stop the flow of blood. \n3)Apply an antibacterial ointment to the wound.\n 4)Cover with a sterile bandage. \n5)Watch for signs of infection. 6)Seek help if you suspect infection or possible exposure to rabies, or if the wound is severe."
+            ]
+        },
+        {
+            "tag": "Drowning",
+            "patterns": [
+                "What to do if someone is Drowning?",
+                "what to do if someone drowned?",
+                "What steps to take if i see a drowning person?",
+                "How to help a drowning person?"
+            ],
+            "responses": [
+                "1)Place your ear next to the person's mouth and nose. Do you feel air on your cheek? \n2)Look to see if the person's chest is moving.If the Person is Not Breathing, Check Pulse. \n3)Check the person's pulse for 10 seconds.If There is No Pulse, Start CPR."
+            ]
+        },
+        {
+            "tag": "CPR",
+            "patterns": [
+                "How to give CPR??",
+                "what to do in a CPR?",
+                "What steps to take in a CPR??",
+                "How to help a drowning person in CPR?"
+            ],
+            "responses": [
+                "1)For an adult or child, place the heel of one hand on the center of the chest at the nipple line. You can also push with one hand on top of the other. For an infant, place two fingers on the breastbone.\n 2)For an adult or child, press down at least 2 inches. Make sure not to press on ribs. For an infant, press down about 1 and 1/2 inches. Make sure not to press on the end of the breastbone. \n3)Do chest compressions only, at the rate of 100-120 per minute or more. Let the chest rise completely between pushes.\n4)Check to see if the person has started breathing."
+            ]
+        },
+        {
+            "tag": "Fracture",
+            "patterns": [
+                "How do you treat a Fracture?",
+                "what to do if i get a Fracture?",
+                "Which medicine to take if I have a Fracture?",
+                "How to cure a Fracture?"
+            ],
+            "responses": [
+                "1)Stop any bleeding. Apply pressure to the wound with a sterile bandage, a clean cloth or a clean piece of clothing.\n 2)Immobilize the injured area. Don't try to realign the bone or push a bone that's sticking out back in. If you've been trained in how to splint and professional help isn't readily available, apply a splint to the area above and below the fracture sites. Padding the splints can help reduce discomfort.\n 3)Apply ice packs to limit swelling and help relieve pain. Don't apply ice directly to the skin. Wrap the ice in a towel, piece of cloth or some other material. \n4)Treat for shock. If the person feels faint or is breathing in short, rapid breaths, lay the person down with the head slightly lower than the trunk and, if possible, elevate the legs."
+            ]
+        },
+        {
+            "tag": "COVID-19",
+            "patterns": [
+                "What are the symptoms of the novel coronavirus (COVID-19) infection?",
+                "How will i know if i suffering from corona?",
+                "syptoms of coronavirus?"
+            ],
+            "responses": [
+                "1)Fever.\n2)Cough. \n3)Shortness of breath or difficulty breathing. \n4)Tiredness. \n5)Muscle or body aches. \n6)Headaches. \n7)New loss of taste or smell. \n8)Sore throat. \n9)Congestion or runny nose. \n10)Nausea or vomiting. \n11)Diarrhea."
+            ]
+        },
+        {
+            "tag": "coronavirus",
+            "patterns": [
+                "How is coronavirus diagnosed?",
+                "what to do if I have symptoms of corona?",
+                "where to test corona?"
+            ],
+            "responses": [
+                "COVID-19 is diagnosed with a laboratory test. Your healthcare provider may collect a sample of your saliva or swab your nose or throat to send for testing."
+            ]
+        },
+        {
+            "tag": "coronavirus",
+            "patterns": [
+                "If I have a positive test for coronavirus, how long should I self-isolate?",
+                "What to do if i have tested positive for corona virus?",
+                "How long should I self-isolate?"
+            ],
+            "responses": [
+                "You should self-isolate until you've met all three of the following criteria:\n ->It's been 10 days since your symptoms first appeared.\n ->You've not had a fever for 24 hours and you've not used fever-lowing medications during this time.\n ->Your COVID-19 symptoms have improved."
+            ]
+        },
+        {
+            "tag": "novel coronavirus (COVID-19)",
+            "patterns": [
+                "How can I prevent getting the novel coronavirus (COVID-19)?",
+                "How to cure corona virus?",
+                "What are the treatment of coronavirus?"
+            ],
+            "responses": [
+                "1)Wash your hands for at least 20 seconds\n2) Avoid touching your eyes, nose and mouth, Wear a face mask,\n3) Avoid close contact (within six feet) with those who have coughs, colds or are sick."
+            ]
+        },
+        {
+            "tag": "Migraine Headaches",
+            "patterns": [
+                "How to treat migrane??",
+                "What are the migraine management methods?",
+                "Migraine Headaches",
+                "Give the name of medicine to reduce the migrane ??"
+            ],
+            "responses": [
+                "Resting in a dark, quiet, cool room.\n Applying a cold compress or washcloth to your forehead or behind your neck.\n Massaging your scalp.\n Applying circular motion pressure to your temples. \nKeeping yourself in a calm state, meditating or starting biofeedback methods."
+            ]
+        },
+        {
+            "tag": "Asthma in Children",
+            "patterns": [
+                "Asthma in Children",
+                "What are the treatment of asthma in childresn?",
+                "How to cure asthma attack in children?",
+                "What should you do if your child has an asthma attack?",
+                "asthma attack in children"
+            ],
+            "responses": [
+                "Give your child their reliever medicine according to the asthma action plan.\n  Wait 15 minutes. If the symptoms go away, your child should be able to resume whatever activity they were doing.\nIf symptoms persist, follow the Asthma Action Plan for further therapy.\nIf your child fails to improve, or if you aren't sure what action to take, call your care provider."
+            ]
+        },
+        {
+            "tag": "Asthma",
+            "patterns": [
+                "How is asthma treated?",
+                "Asthma",
+                "How to cure asthma attack?",
+                "What are the treatment of asthma ?",
+                "Medicines for asthma attack?"
+            ],
+            "responses": [
+                "Asthma can be controlled, but not cured. \nThe drugs used to treat asthma are Anti-inflammatories, Bronchodilators."
+            ]
+        },
+        {
+            "tag": "Hypertrophic Scars",
+            "patterns": [
+                "How to treat hypertrophic scars??",
+                "Hypertrophic Scars",
+                "how to reduce red  scars that rise above the skin?"
+            ],
+            "responses": [
+                "They do not spread beyond the spot where the injury occurred.\n Possible treatments include steroid injections and laser surgery."
+            ]
+        },
+        {
+            "tag": "Acne Scars",
+            "patterns": [
+                "How to treat acne scars??",
+                "Acne Scars",
+                "how to reduce acne scars ?"
+            ],
+            "responses": [
+                "There are many types of acne scars, and they can be shallow or quite deep.\n Treatment depends on the type of scars."
+            ]
+        },
+        {
+            "tag": "Low blood pressure/Hypotension",
+            "patterns": [
+                "How to treat low blood pressure??",
+                "What can you do to help relieve symptoms of low blood pressure?",
+                "what should we eat to treat low blood pressure?",
+                "Give the name of medicine to maintain the blood pressure ??"
+            ],
+            "responses": [
+                "Eating a healthy diet with fewer carbohydrates and smaller meals.\nDrinking more water/rehydration drink and avoiding alcohol.\nGetting up slowly after you’ve been sitting or lying down.\nIncrease your salt intake slightly because sodium raises blood pressure.\nEat smaller, healthy meals and limit carbohydrates."
+            ]
+        },
+        {
+            "tag": "Hemorrhoids/Piles",
+            "patterns": [
+                "How to treat piles??",
+                "what should we not consume to treat piles?",
+                "How can I prevent hemorrhoids?"
+            ],
+            "responses": [
+                "Don’t sit too long or push too hard on the toilet.\nGo the toilet when the urge hits — don’t delay bowel movements.\nDrink plenty of water throughout the day.\nEat more high-fiber foods.Take laxatives or use enemas only as recommended by your healthcare provider."
+            ]
+        },
+        {
+            "tag": "Muscle Spasms/Muscle Cramps",
+            "patterns": [
+                "How to treat muscle cramps??",
+                "How are muscle spasms treated?",
+                "How to prevent future muscle spasms?",
+                "what should we do to reduce the pain of carmps?",
+                "what to do if we have sharp pain in the body?",
+                "Muscle Cramps"
+            ],
+            "responses": [
+                "1.Gently stretch and massage the spasmodic muscle.\n2.Hold it in a stretched position until the spasms stop.\n3.Apply cold to sore/tender muscles or heat to tense/tight muscles.Do regular flexibility exercises before and after you work out."
+            ]
+        },
+        {
+            "tag": "Menstrual/Period Cramps",
+            "patterns": [
+                "what should we do to reduce period cramps??",
+                "How can you relieve mild menstrual cramps?",
+                "Solution for period cramps?",
+                "Period Cramps",
+                "Dysmennorrha?"
+            ],
+            "responses": [
+                "Place a heating pad or hot water bottle on your lower back or abdomen. \nAvoid foods that contain caffeine. \nAvoid smoking and drinking alcohol. \nMassage your lower back and abdomen."
+            ]
+        },
+        {
+            "tag": "Therapies for Menstrual Cramps",
+            "patterns": [
+                "what should we do to reduce period cramps??",
+                "Therapies for Menstrual Cramps",
+                "What types of alternative therapies might help with menstrual cramping?"
+            ],
+            "responses": [
+                "Yoga.\n Massage. \nAcupuncture and acupressure. \nRelaxation or breathing exercises."
+            ]
+        },
+        {
+            "tag": "Hypokalemia",
+            "patterns": [
+                "How to treat Low Potassium Levels in Your Blood (Hypokalemia)??",
+                "What is the treatment for low potassium levels?",
+                "What are the food that provides potassium?"
+            ],
+            "responses": [
+                "Consume food that has high potassium like Milk, Spinach, Bananas, Beans, Broccolis,Chicken,Fish (many types),Nuts (many kinds)"
+            ]
+        },
+        {
+            "tag": "Celiac Disease",
+            "patterns": [
+                "How is celiac disease treated?",
+                "what type of foods are avoided for celiac disease?",
+                "How can I prevent celiac disease?"
+            ],
+            "responses": [
+                "If you have celiac disease, you can't eat any foods that contain gluten (including wheat, rye and barley). \nYou will be encouraged to visit with a dietitian for formal diet instruction."
+            ]
+        },
+        {
+            "tag": "Brain Freeze",
+            "patterns": [
+                "What can I do to make a brain freeze go away?",
+                "Brain Freeze",
+                "How to treat numb brain?",
+                "What can I do to prevent brain freeze?"
+            ],
+            "responses": [
+                "1.Drink a warm water. \n2. Press your tongue or thumb against the roof of your mouth to transfer warmth. \n3.Stop eating or drinking the cold item, or get out of the cold."
+            ]
+        },
+        {
+            "tag": "Corneal Disease",
+            "patterns": [
+                "How is corneal disease diagnosed?",
+                "Corneal Disease",
+                "Eye Disease",
+                "Can corneal disease be prevented?"
+            ],
+            "responses": [
+                " Corneal disease can only be diagnosed after a thorough examination by an ophthalmologist.\nAvoid sharing eye makeup, contact solution, lens cases and eye drops with people who are infected.\nWash your hands thoroughly with soap and warm water for at least 15 seconds after contact with an infected person."
+            ]
+        },
+        {
+            "tag": "Drooping Eyelid",
+            "patterns": [
+                "How is ptosis (drooping eyelid) treated?",
+                "Drooping Eyelid"
+            ],
+            "responses": [
+                "Treatment usually depends on how well the eyelid muscles are functioning. \nIf the ptosis does not affect vision and the patient does not mind the appearance, doctor might recommend no treatment at all."
+            ]
+        },
+        {
+            "tag": "Skin Fungus",
+            "patterns": [
+                "How is skin fungus treated?",
+                "Can I treat a fungal rash at home?",
+                "what type of cream are used to cure skin fungus?"
+            ],
+            "responses": [
+                "Treatment for skin fungus includes:\nAntifungal creams, Stronger prescription medications,Oral medicines, if the fungal infection is severe."
+            ]
+        },
+        {
+            "tag": "Freckles",
+            "patterns": [
+                "What is the treatment for freckles?",
+                "Freckles",
+                "How to cure skin Freckles?",
+                "what to do to reduce skin freckles?"
+            ],
+            "responses": [
+                "There's no treatment. It’s best to avoid the sun as much as possible, or use a sunscreen."
+            ]
+        },
+        {
+            "tag": "skin tags",
+            "patterns": [
+                "skin tags",
+                "How are skin tags treated?",
+                "How to cure skin tags?"
+            ],
+            "responses": [
+                "Your dermatologist can remove a skin tag by cutting it off with a scalpel or scissors, with cryotherapy (freezing it off), or with electrosurgery (burning with an electric current) "
+            ]
+        },
+        {
+            "tag": "lentigines",
+            "patterns": [
+                "lentigines",
+                "How are lentigines treated?",
+                "How to cure lentigines?"
+            ],
+            "responses": [
+                "There are several methods for treating lentigines:\nCryotherapy (freezing it off)\nLaser surgery\nCreams that are applied to the skin (these include retinoids and bleaching agents)"
+            ]
+        },
+        {
+            "tag": "Delirium",
+            "patterns": [
+                "Delirium",
+                "How to cure Delirium?",
+                "How is delirium treated?"
+            ],
+            "responses": [
+                "Treatment for delirium depends on the cause. Treatments may include:\nAntibiotics for infections.\nFluids and electrolytes for dehydration.\nBenzodiazepines for problems due to drug and alcohol withdrawal."
+            ]
+        },
+        {
+            "tag": "Schizophrenia",
+            "patterns": [
+                "Schizophrenia",
+                "Can schizophrenia be treated?",
+                "How schizophrenia is treated?"
+            ],
+            "responses": [
+                "The main types of treatment are counseling and medicines to lessen or stop psychotic symptoms. \nMedicines will control psychotic symptoms in most people. \nIn milder cases of schizophrenia, medications may not be needed."
+            ]
+        },
+        {
+            "tag": "Bipolar Disorder",
+            "patterns": [
+                "How is bipolar disorder diagnosed?",
+                "Bipolar Disorder",
+                "What to do if I have Bipolar Disorder"
+            ],
+            "responses": [
+                "A diagnosis of bipolar disorder is made only by taking careful note of symptoms, and their severity, length, and frequency.\nA thorough medical evaluation should be performed."
+            ]
+        },
+        {
+            "tag": "Depression",
+            "patterns": [
+                "Depression",
+                "How is depression syndrome treated?",
+                "How to cure mental health problem (depression)?",
+                "What to do if I am suffering from depression?"
+            ],
+            "responses": [
+                "1) Regular exercise, getting enough sleep, and spending time with people you care about can improve depression symptoms.\n 2)Counseling or psychotherapy is talking with a mental health professional.\n3)Prescription medicine called antidepressants can help change brain chemistry that causes depression."
+            ]
+        },
+        {
+            "tag": "Depression in Children",
+            "patterns": [
+                "How are depression and anxiety in children treated?",
+                "Depression in Children",
+                "How to cure depression in children?",
+                "Can I prevent my child from developing depression or anxiety?"
+            ],
+            "responses": [
+                "1.Psychotherapy (counseling) & Medication. \n Daily exercise.\n 2.Safe, supportive environment at home and school.\n 3. Plenty of sleep. \n4. Well-balanced meals."
+            ]
+        },
+        {
+            "tag": "Factitious Disorders",
+            "patterns": [
+                "How is factitious disorder treated?",
+                "Factitious Disorders",
+                "How to cure Factitious Disorders?"
+            ],
+            "responses": [
+                "The primary treatment for factitious disorder is psychotherapy (a type of counseling). \nTreatment likely will focus on changing the thinking and behavior of the individual with the disorder (cognitive-behavioral therapy).\nFamily therapy also may help in teaching family members not to reward or reinforce the behavior of the person with the disorder."
+            ]
+        },
+        {
+            "tag": "Body Dysmorphic Disorder",
+            "patterns": [
+                "Body Dysmorphic Disorder",
+                "What are treatments for body dysmorphic disorder (BDD)?",
+                "How to cure Body Dysmorphic Disorder?"
+            ],
+            "responses": [
+                "Psychotherapy and Medication "
+            ]
+        },
+        {
+            "tag": "Intermittent Explosive Disorder",
+            "patterns": [
+                "Intermittent Explosive Disorder",
+                "How is intermittent explosive disorder treated?",
+                "Treatment for Intermittent Explosive Disorder"
+            ],
+            "responses": [
+                "Intermittent explosive disorder may best be treated by a combination of cognitive behavioral therapy and medications "
+            ]
+        },
+        {
+            "tag": "Urine Changes",
+            "patterns": [
+                "How are changes in urine treated?",
+                "Urine Changes",
+                "Treatments for urine color changes?"
+            ],
+            "responses": [
+                " Changes caused by underlying conditions such as urinary tract infections or kidney stones.\nChanges in urine are not specifically treated. \nYour doctor will treat the underlying cause once it is determined"
+            ]
+        },
+        {
+            "tag": "Pemphigus",
+            "patterns": [
+                "Pemphigus",
+                "Cure for Pemphigus",
+                "What are the treatments for pemphigus?"
+            ],
+            "responses": [
+                "Doctors use medications to treat pemphigus. \nMedications that reduce inflammation (swelling), delivered by mouth, by injection (a shot) or topically (such as lotions or creams)"
+            ]
+        },
+        {
+            "tag": "Lichen Sclerosus",
+            "patterns": [
+                "How is lichen sclerosus treated?",
+                "Lichen Sclerosus",
+                "How to cure lichen sclerosus?",
+                "Tretment for lichen sclerosus"
+            ],
+            "responses": [
+                "Strong corticosteroid ointments and creams can relieve itching and inflammation.\n Follow your provider’s instructions about when and how to apply the medicine to your skin"
+            ]
+        },
+        {
+            "tag": "Genital Warts",
+            "patterns": [
+                "How are genital warts managed or treated?",
+                "Genital Warts",
+                "What to do if I have warts in my genital area?",
+                "How to cure warts?"
+            ],
+            "responses": [
+                "Once a week for several weeks, you apply a prescription chemical solution to the warts. \nThe chemical causes blisters to form under the warts, stopping blood flow.\n In some cases, your provider may apply the solution. "
+            ]
+        },
+        {
+            "tag": "Vulvodynia",
+            "patterns": [
+                "What  can I do to relieve the pain of vulvodynia?",
+                "Vulvodynia",
+                "Treatment for pain of vulvodynia"
+            ],
+            "responses": [
+                "Avoid tight clothing and pantyhose.\nWear all-cotton underwear.\nUse cold compresses or gel packs.\nAvoid exercises that put pressure on the vulva, like cycling or horseback riding.\nWash the area gently with plain water."
+            ]
+        },
+        {
+            "tag": "Vaginitis",
+            "patterns": [
+                "How is vaginitis treated?",
+                "Treatment for Vaginitis"
+            ],
+            "responses": [
+                " The key to proper treatment of vaginitis is proper diagnosis.\nThe important thing to understand is that medication may only cure the most common types of candida associated with vaginal yeast infections and will not cure other yeast infections or any other type of vaginitis."
+            ]
+        },
+        {
+            "tag": "cardiac tumors",
+            "patterns": [
+                "What are the risks of cardiac tumors?",
+                "cardiac tumors",
+                "Risk of tumors"
+            ],
+            "responses": [
+                "Tumors that block blood flow can cause heart failure, stroke, atrial fibrillation and blood clots.Risk is embolism. \nThis means that part of the tumor or a blood clot can travel to other parts of the circulatory system."
+            ]
+        },
+        {
+            "tag": "gallstones",
+            "patterns": [
+                "What foods should I avoid if I have had gallstones?",
+                "How gallstone is treated at home?",
+                "how to cure gallstone?"
+            ],
+            "responses": [
+                "Eating less meat.\nAdding fish.\nLimiting the amount of fried foods.\nAdding more whole grains.\nChoosing low-fat dairy products (cheese, milk).\nAdding fresh vegetables and fruit."
+            ]
+        },
+        {
+            "tag": "Ureteral Stones",
+            "patterns": [
+                "How can ureteral stones be prevented?",
+                "Hows to cure stones?",
+                "home remedies to prevent stones",
+                "Treatment for stones"
+            ],
+            "responses": [
+                "Drink more fluids.\nLimit animal protein \nControl sodium intake \nLimit oxalate "
+            ]
+        },
+        {
+            "tag": "Kidney Stones",
+            "patterns": [
+                "How are kidney stones treated?",
+                "Treatment for Kidney Stones",
+                "How to cure kidney stones"
+            ],
+            "responses": [
+                "Medications and Minimally-invasive surgery"
+            ]
+        },
+        {
+            "tag": "Kidney Stones",
+            "patterns": [
+                "What other things can I eat or drink to prevent kidney stones?",
+                "Foods to prevent stones?"
+            ],
+            "responses": [
+                "Drinking plenty of fluids.\nCutting back on your sodium.\nIncreasing the amount of citrates you consume (lemon, lime, orange and melons all have citrates).\nLimiting the amount of oxalates you consume "
+            ]
+        },
+        {
+            "tag": "tonsillitis",
+            "patterns": [
+                "What are the treatments for tonsillitis?",
+                "How tonsillitis is treated?",
+                "How to cure tonsillitis?"
+            ],
+            "responses": [
+                "The treatment you receive depends on the infection’s cause.\nWhile the symptoms of viral tonsillitis and bacterial tonsillitis can be similar, their treatments are different."
+            ]
+        },
+        {
+            "tag": "strep throat",
+            "patterns": [
+                "strep throat",
+                "Treatment for strep throat",
+                "What is the treatment for strep throat?",
+                "How to cure strep throat?"
+            ],
+            "responses": [
+                "Strep throat (tonsillitis caused by bacteria) is treated with an antibiotic medication. Antibiotics require a prescription from your doctor. "
+            ]
+        },
+        {
+            "tag": " viral tonsillitis",
+            "patterns": [
+                "What is the treatment for viral tonsillitis?",
+                "How to cure viral tonsillitis?"
+            ],
+            "responses": [
+                "Plenty of rest\nFluids to stay hydrated\nOver-the-counter pain relievers like ibuprofen or acetaminophen\nThroat lozenges "
+            ]
+        },
+        {
+            "tag": "Viral and Bacterial tonsillitis",
+            "patterns": [
+                "What can I do to help relieve symptoms of tonsillitis?",
+                "How to cure Viral and Bacterial tonsillitis "
+            ],
+            "responses": [
+                "Take an over-the-counter pain reliever such as acetaminophen or ibuprofen.\nDrink warm liquids, like tea, apple cider or broth.\nGargle with warm salt water.\nTry throat lozenges."
+            ]
+        },
+        {
+            "tag": "Urinary Tract Infection",
+            "patterns": [
+                "How are urinary tract infections (UTI) treated?",
+                "Urinary Tract Infection",
+                "How to cure infection in urirary body part?",
+                "Urinary Infecttion"
+            ],
+            "responses": [
+                " You will need to treat a urinary tract infection.\nAntibiotics are medicines that kill bacteria and fight an infection.\nAntibiotics are typically used to treat urinary tract infections."
+            ]
+        },
+        {
+            "tag": "UTI",
+            "patterns": [
+                "Can I prevent a urinary tract infection (UTI)?",
+                "How can I prevent uniray tract infection?"
+            ],
+            "responses": [
+                "Practicing good hygiene, Drinking plenty of fluids\n Changing your urination habits\n Avoiding tight-fitting clothing "
+            ]
+        },
+        {
+            "tag": "West Nile virus",
+            "patterns": [
+                "West Nile virus",
+                "How to cure West Nile virus",
+                "How is West Nile virus treated?"
+            ],
+            "responses": [
+                "Over-the-counter medicines, such as acetaminophen  or ibuprofen , may relieve minor aches or discomfort."
+            ]
+        },
+        {
+            "tag": "West Nile virus",
+            "patterns": [
+                "Can West Nile virus be prevented?",
+                "Prevetion of west nile virus",
+                "prevention of insect bite"
+            ],
+            "responses": [
+                "Use insect repellent, Cover skin, Don’t touch dead birds, Drain standing water."
+            ]
+        },
+        {
+            "tag": "Anemia",
+            "patterns": [
+                "How is anemia treated?",
+                "How to cure anemia?",
+                "Treatments for anemia?",
+                "Food to consume when you suffer from anemia"
+            ],
+            "responses": [
+                "Iron supplements taken by mouth.\nFoods high in iron and foods that help your body absorb iron (like foods with Vitamin C).\n Transfusions of red blood cells."
+            ]
+        },
+        {
+            "tag": "Insomnia",
+            "patterns": [
+                "How is insomnia managed or treated?",
+                "How can I prevent insomnia?",
+                "Prevention of lolss of sleep",
+                "how to treat loss of sleep at night?"
+            ],
+            "responses": [
+                "Avoid large meals, caffeine and alcohol before bed.\nBe physically active during the day, outside if possible.\nCut back on caffeine, including coffee, sodas and chocolate, throughout the day and especially at night.\nGo to bed and get up at the same time each day, including weekends.\nPut away smartphones, TVs, laptops or other screens at least 30 minutes before bedtime.\nQuit smoking."
+            ]
+        },
+        {
+            "tag": "insomnia",
+            "patterns": [
+                "What are the symptoms of insomnia?",
+                "what body changes we feel if we suffer from insomnia?",
+                "What are the symptoms loss of sleep at night?"
+            ],
+            "responses": [
+                "Difficulty falling asleep and waking up in the middle of the night.\nDifficulty returning to sleep.\nFeeling tired/fatigued during the daytime.\nIrritability or depressed mood.\nProblems with concentration or memory."
+            ]
+        },
+        {
+            "tag": "sleep disorders",
+            "patterns": [
+                "How are sleep disorders treated?",
+                "How to cure sleep disorders?"
+            ],
+            "responses": [
+                "Counseling, Medications,Practice sleep hygiene such as keeping a regular sleep schedule.\nGet regular exercise.\nMinimize noise.\nMinimize light."
+            ]
+        },
+        {
+            "tag": "Exercise",
+            "patterns": [
+                "What are the benefits of exercise?",
+                "What can we get by doing exercise?",
+                "Advantages of doing regular exercise?"
+            ],
+            "responses": [
+                "Maintain blood pressure\nImprovement in the heart's pumping ability\nMore energetic feeling, less fatigue\nEasing the pain or stiffness of arthritic joints\nA more positive attitude, less strain and tension\nBetter sleeping patterns\nImproved appetite"
+            ]
+        },
+        {
+            "tag": "Right Exercise",
+            "patterns": [
+                "What is the right kind of exercise?",
+                "Right Exercise",
+                "What are the right type of exercise?",
+                "What is right exercise?"
+            ],
+            "responses": [
+                "A good exercise plan starts slowly, allowing your body time to adjust.\nThe right kind of exercise never makes you feel sore, stiff, or exhausted.",
+                "Walking, stationary bike, yoga, or swimming "
+            ]
+        },
+        {
+            "tag": "Wrong Exercise",
+            "patterns": [
+                "What is the wrong kind of exercise?",
+                "Wrong Exercise",
+                "What are the wrong type of exercise?",
+                "What is wrong exercise?"
+            ],
+            "responses": [
+                "Even more dangerous than doing no exercise is exercising only occasionally and doing too much, too fast.\n If you experience soreness, stiffness, exhaustion, or feel out of breath as a result of your exercise, you are overdoing it."
+            ]
+        },
+        {
+            "tag": "Stress",
+            "patterns": [
+                "How to manage stress?",
+                "What to do when stress?",
+                "stress",
+                "How to cure the stress?"
+            ],
+            "responses": [
+                "Apply Relaxation techniques\n Do activities such as knitting, reading, or listening to music require little physical energy but require attention."
+            ]
+        },
+        {
+            "tag": "low testosterone (male hypogonadism)",
+            "patterns": [
+                "How is low testosterone treated?",
+                "How to curelow testosterone ?",
+                "low testosterone "
+            ],
+            "responses": [
+                "Low testosterone is treated with testosterone replacement therapy: Intramuscular injections (into a muscle), \nTestosterone patches,Testosterone gels."
+            ]
+        },
+        {
+            "tag": "testosterone replacement therapy",
+            "patterns": [
+                "What are the benefits of testosterone replacement therapy?",
+                "testosterone replacement therapy",
+                "what are the advantages of testosterone replacement therapy?"
+
+            ],
+            "responses": [
+                "Loss of fat \nIncreased bone density and protection against osteoporosis \nImproved mood and sense of well-being \nImproved sexual function \nImproved mental sharpness\nGreater muscle strength and physical performance"
+            ]
+        },
+        {
+            "tag": "testosterone replacement therapy",
+            "patterns": [
+                "Who shouldn't take testosterone replacement therapy?",
+                "who shouldn't get testosterone replacement therapy?"
+            ],
+            "responses": [
+                "men who have prostate cancer,an enlarged prostate, breast cancershould not take testosterone replacement therapy."
+            ]
+        },
+        {
+            "tag": "Delirium",
+            "patterns": [
+                "How is delirium treated?",
+                "Delirium",
+                "Treatment for delirium"
+            ],
+            "responses": [
+                "Treatment for delirium depends on the cause. \nIt may include:Antibiotics for infections. \nFluids and electrolytes for dehydration. \nBenzodiazepines "
+            ]
+        },
+        {
+            "tag": "Mental illness in children",
+            "patterns": [
+                "How is mental illness of childhood  treated?",
+                "Mental illness in children",
+                "Treatment for Mental illness in children"
+            ],
+            "responses": [
+                "Treatment for early schizophrenia depends on the child and the type and severity of symptoms.\n Treatment usually includes therapy and education for both patient and family."
+            ]
+        },
+        {
+            "tag": "childhood schizophrenia",
+            "patterns": [
+                "What complications are associated with childhood schizophrenia?",
+                "Complications in mental illness for children"
+            ],
+            "responses": [
+                "Childhood schizophrenia may cause difficulties throughout a child’s life, and can affect learning, memory, relationships and productivity."
+            ]
+        },
+        {
+            "tag": "Sleep Walking",
+            "patterns": [
+                "How to reduce sleep walking?",
+                "Sleep Walking",
+                "How to cure sleep walking"
+            ],
+            "responses": [
+                "At bedtime listen to soft music.\n Establish regular nap and sleep schedules.\n Avoid caffeine near bedtime"
+            ]
+        },
+        {
+            "tag": "Narcolepsy",
+            "patterns": [
+                "What should I expect if I have narcolepsy?",
+                "Treatment for narcolepsy",
+                "How to cure narcolepsy"
+            ],
+            "responses": [
+                "There is no cure for narcolepsy. It is a life-long sleeping disorder. However, it usually does not worsen with age. The use of medications and lifestyle changes can help improve narcolepsy symptoms"
+            ]
+        },
+        {
+            "tag": "Narcolepsy in Children",
+            "patterns": [
+                "Narcolepsy in Children",
+                "What are the suggestions to prevent or treat narcolepsy"
+            ],
+            "responses": [
+                "Follow a regular sleep/wake schedule.\n Go to bed and wake up at about the same time every day.  \nTake short naps (20 to 30 minutes) at times when you are feeling most sleepy, if possible. \nKeep your bedroom quiet, dark, cool, and comfortable. Do not watch TV or bring computers or phones into bed with you. \nAvoid caffeine for several hours before bedtime. \nExercise at least 20 minutes per day. Do not exercise within 3 hours of bedtime."
+            ]
+        },
+        {
+            "tag": "Hemophilia",
+            "patterns": [
+                "Hemophilia",
+                "what to do if we suffer fromHemophilia",
+                "Are there home treatments for bleeds in people with hemophilia?"
+            ],
+            "responses": [
+                "At the time of a joint bleed, you can treat the pain using the “RICE” (Rest, Ice, Compression, Elevation) protocol.\n If you are suffering from pain related to an injury, you can use acetaminophen "
+            ]
+        },
+        {
+            "tag": "good health",
+            "patterns": [
+                "What are the recommendation to maintain good health/ healthy lfestyle?",
+                "suggestion for healthy lisestyle",
+                "Healthy lifestyle includes",
+                "how to achieve good health?",
+                "how to achieve healthy lifestyle?"
+            ],
+            "responses": [
+                "Exercise regularly. \nEat healthy foods to maintain a healthy weight. \nPractice good hygiene."
+            ]
+        },
+        {
+            "tag": "Nocturia",
+            "patterns": [
+                "What are the suggestions to treat frequent urination at night?",
+                "Frequet urination",
+                "Solution for frequent urination"
+            ],
+            "responses": [
+                "Restrict fluids in the evening. \nElevate the legs (this helps prevent fluid accumulation). \nWear compression stockings (this also helps prevent fluid accumulation). \nRegulate medications that reduce symptoms of overactive bladder."
+            ]
+        },
+        {
+            "tag": "Infertility in Women",
+            "patterns": [
+                "How to treat infertility in women?",
+                "Infertility in Women",
+                "Treatments for infertility in women"
+            ],
+            "responses": [
+                "Fertility drugsand hormones to help the woman ovulate or restore levels of hormones. \nSurgery to remove tissue that is blocking fertility (such as endometriosis) or to open blocked fallopian tubes."
+            ]
+        },
+        {
+            "tag": "Infertility in Men",
+            "patterns": [
+                "How to treat infertility in men? ",
+                "Infertility in men",
+                "Treatments for infertility in men"
+            ],
+            "responses": [
+                "IVF (in vitro fertilization): The sperm and egg are collected and brought together in a lab. The fertilized egg grows for 3 to 5 days days. Then the embryo is placed in the woman's uterus.\n GIFT (gamete intrafallopian transfer) and ZIFT (zygote intrafallopian transfer): The sperm and egg are collected and quickly placed in a fallopian tube. With GIFT, the both sperm and eggs are placed into the fallopian tube. With ZIFT, the sperm and eggs are brought together in a lab and then a fertilized egg is placed into the tube at 24 hours."
+            ]
+        },
+        {
+            "tag": "Symptoms of pregnancy",
+            "patterns": [
+                "What are the symptoms of early pregnancy?",
+                "Symptoms of pregnancy",
+                "How can I  know if I am pregnant?"
+            ],
+            "responses": [
+                "Missed menstrual cycle \nMood changes\n Increased urination\n Headaches, Low backache and/or pain\n Sore breasts\n Darkened areolas\n Tiredness\n Nausea"
+            ]
+        },
+        {
+            "tag": "Post preganncy depression",
+            "patterns": [
+                "What are the symptoms of post pregnancy depression?",
+                "Post preganncy depression"
+            ],
+            "responses": [
+                "Depressed mood or severe mood swings,Excessive crying\nDifficulty bonding with your baby, \nWithdrawing from family and friends,Loss of appetite or eating much more than usual \nInability to sleep (insomnia) or sleeping too much,Overwhelming fatigue or loss of energy, \nReduced interest and pleasure in activities you used to enjoy,Fear that you're not a good mother, \nHopelessness,Feelings of worthlessness, shame, guilt or inadequacy"
+            ]
+        },
+        {
+            "tag": "Treatments to prevent or relieve bloating",
+            "patterns": [
+                "How can I prevent bloating?",
+                "How can I relieve bloating?",
+                "Treatment for bloating",
+                "How to cure bloating?",
+                "Bloating"
+            ],
+            "responses": [
+                "To prevent bloating:Reglar Massages, Regular Medications,lifestyle changes(eating habit) helps to relievw bloating"
+            ]
+        },
+        {
+            "tag": "Common cold in babies",
+            "patterns": [
+                "What are the treatment for common cold in babies?",
+                "How to cure Common cold in babies",
+                "Common cold in babies"
+            ],
+            "responses": [
+                "Give plenty of liquids, including breast milk or formula.\n A small amount of water may be offered to your baby if they’re over 6 months old. \nSuction out nasal mucus using saline drops and a suction bulb.\nMoisturize the air with a humidifier."
+            ]
+        },
+        {
+            "tag": "Pneumonia",
+            "patterns": [
+                "How can I treat pneumonia?",
+                "How to cure pneumonia",
+                "Treatment for pneumonia"
+            ],
+            "responses": [
+                "Control your fever with aspirin, nonsteroidal anti-inflammatory drugs (NSAIDs, such as ibuprofen or naproxen), or acetaminophen.\n Donot give aspirin to children. \nDrink plenty of fluids to help loosen secretions and bring up phlegm. \nDo not take cough medicines without first talking to your doctor. If your cough is preventing you from getting the rest you need, ask your doctor about steps you can take to get relief. \nDrink warm beverages, take steamy baths and use a humidifier to help open your airways and ease your breathing. "
+            ]
+        },
+        {
+            "tag": "burning eyes",
+            "patterns": [
+                "What are the methods of treating burning eyes?",
+                "How can I treat burning eyes?",
+                "How to prevent eyes from burning?"
+            ],
+            "responses": [
+                "Cleaning the eyelid margins near the base of the eyelashes, using a gentle cleanser and lukewarm water. \nApplying lubricating eye drops to reduce redness and improve eye comfort. \nApplying a warm compress to the eyes. Make a compress by soaking a clean, soft towel in warm water and then placing it over the eyes. \nUsing antihistamine eye drops or tablets to reduce the effects of allergic reactions in the eyes. \nDrinking plenty of water throughout the day. \nTaking regular breaks from using a computer screen ."
+            ]
+        },
+        {
+            "tag": "Altitude sickness",
+            "patterns": [
+                "How can I treat altitude sickness?",
+                "What are the preventions for altitude sickness?",
+                "Altitude sickness",
+                "How to cure altitude sickness?"
+            ],
+            "responses": [
+                "Avoid flying directly to areas of high altitude, if possible take 2 to 3 days to get used to high altitudes before going above 2,500m,avoid climbing more than 300m to 500m a day,have a rest day every 600m to 900m you go up, or rest every 3 to 4 days"
+            ]
+        },
+        {
+            "tag": "Itchy eyes",
+            "patterns": [
+                "What are the symptoms of itchy eyes?",
+                "how can I know if I am sffering from eye itchiness?"
+            ],
+            "responses": [
+                "Red, irritated eyes, \nTearing or runny eyes, \nSwollen eyelids, \nSoreness, burning, or pain, \nSensitivity to light."
+            ]
+        },
+        {
+            "tag": "Itchy eyes",
+            "patterns": [
+                "What are the treatment for itchy eyes?",
+                "How to cure itchy eyes?",
+                "Itchy eyes",
+                "How can I prevent of itching my eye?"
+            ],
+            "responses": [
+                "Wear sunglasses when you go outside. They'll block some of the pollen and other outdoor allergens from getting into your eyes. \nRinse your eyes with preservative-free saline water or apply a cold, wet washcloth. \nUse lubricating eye drops (artificial tears) to moisten dry eyes and wash out allergens. \nTake out your contact lenses. \nDon’t rub your eyes, no matter how much they itch."
+            ]
+        },
+        {
+            "tag": "PCOS",
+            "patterns": [
+                "What are the symptoms of PCOS?"
+            ],
+            "responses": [
+                "Irregular periods,Heavy bleeding,Weight gain,Darkening of the skin,Headaches."
+            ]
+        },
+        {
+            "tag": "PCOS",
+            "patterns": [
+                "How PCOS affects your body?",
+                "what are the risk of PCOS?"
+            ],
+            "responses": [
+                "This is how PCOS affect your body:Infertility,Metabolic syndrome,Sleep apnea, Endometrial cancer,Depression."
+            ]
+        },
+        {
+            "tag": "PCOS",
+            "patterns": [
+                "What are the treatments for PCOS?",
+                "How PCOS are treated?",
+                "How to cure PCOS?"
+            ],
+            "responses": [
+                "Birth control, Metformin,Hair removal medicines,Surgery"
+            ]
+        },
+        {
+            "tag": "Typhoid",
+            "patterns": [
+                "What are the symptoms of Typhoid?",
+                "How will I know if I suffer from typhoid?",
+                "What are the changes in body if we suffer from typhoid?"
+            ],
+            "responses": [
+                "high fever, weakness, stomach pain, headache,poor appetite , rash, fatigue confusion,constipation, diarrhea, nausea, vomiting, and severe abdominal pain."
+            ]
+        },
+        {
+            "tag": "Typhoid",
+            "patterns": [
+                "How can we prevent from Typhoid?",
+                "prevention from typhoid"
+            ],
+            "responses": [
+                "Be careful about what you drink. Watch what you eat. Practice good hygiene."
+            ]
+        },
+        {
+            "tag": "Symptoms of Diabetes",
+            "patterns": [
+                "What are the symptoms of diabetes?",
+                "what changes in body do we feel if we suffer from diabetes?"
+            ],
+            "responses": [
+                "Urinate (pee) a lot, often at night. \nAre very thirsty. \nLose weight without trying. \nAre very hungry. \nHave blurry vision. \nHave numb or tingling hands or feet. \nFeel very tired. \nHave very dry skin. \nHave sores that heal slowly. \nHave more infections than usual."
+            ]
+        },
+        {
+            "tag": "Diabetes",
+            "patterns": [ 
+                "How can I control diabetes?",
+                "Treatments for diabetes",
+                "What to do if I suffer from diabetes?"
+            ],
+            "responses": [
+                "Get more physical activity. \nGet plenty of fiber. Go for whole grains. \nSkip fat diets and just make healthier choices."
+            ]
+        },
+        {
+            "tag": "AIDS",
+            "patterns": [
+                "What are the symptoms of AIDS",
+                "What changes do I feel in my body if I have AIDS?"
+
+            ],
+            "responses": [
+                "Rapid weight loss. \nRecurring fever or profuse night sweats. \nExtreme and unexplained tiredness. \nProlonged swelling of the lymph glands in the armpits, groin, or neck. \nDiarrhea that lasts for more than a week. \nSores of the mouth, anus, or genitals. \nPneumonia. \nMemory loss, depression."
+            ]
+        },
+        {
+            "tag": "Hepatitis B",
+            "patterns": [
+                "What are the symptoms of hepatitis B"
+            ],
+            "responses": [
+                "Fever\n Fatigue\n Loss of appetite\n Nausea\n Vomiting\n Abdominal pain\n Dark urine\n Clay-colored bowel movements\n Joint pain\n Jaundice"
+            ]
+        },
+        {
+            "tag": "Cancer",
+            "patterns": [
+                "What are the symptoms of cancer?"
+            ],
+            "responses": [
+                " Breast changes,Bladder changes,Bleeding or bruising,Cough,Mouth changes ,Bowel changes."
+            ]
+        },
+        {
+            "tag": "Cancer",
+            "patterns": [
+                "What are the preventive measures of cancer?",
+                "Prevention of cancer",
+                "remedies to follow if suffer from cancer",
+                "How to prevent from cancer"
+            ],
+            "responses": [
+                "Don't use tobacco. \nEat a healthy diet. \nMaintain a healthy weight and be physically active. \nProtect yourself from the sun. \nGet regular medical care."
+            ],
+            "context_set": "       "
+        },
+        {
+            "tag": "Hepatitis B",
+            "patterns": [
+                "How can we prevent from Hepatitis B?",
+                "Preventive measures of hepatitis B"
+            ],
+            "responses": [
+                "Do not inject drugs. \nDo not share personal care items that might have blood on them (razors, toothbrushes). \nIf you are a health care or public safety worker, follow universal blood/body fluid precautions and safely handle needles and other sharps. \nUSe protection while having sex."
+            ]
+        },
+        {
+            "tag": "Tuberculosis",
+            "patterns": [
+                "What are the symptoms of Tuberculosis?"
+            ],
+            "responses": [
+                "Coughing that lasts three or more weeks \nCoughing up blood \nChest pain, or pain with breathing or coughing \nUnintentional weight loss \nFatigue \nFever \nNight sweats \nChills \nLoss of appetite"
+            ]
+        },
+        {
+            "tag": "Tuberculosis",
+            "patterns": [
+                "What are the preventive measures of Tuberculosis?",
+                "How to prevent from Tuberculosis? "
+            ],
+            "responses": [
+                "Ventilate the room \nwear a mask \nFinish your entire course of medication \nVaccinations"
+            ]
+        },
+        {
+            "tag": "Birdflu",
+            "patterns": [
+                "What are the symptoms of Birdflu?"
+            ],
+            "responses": [
+                "Cough, Fever, Sore throat, Muscle aches, Headache, Shortness of breath"
+            ]
+        },
+        {
+            "tag": "Birdflu",
+            "patterns": [
+                "How can we prevent from Birdflu?",
+                "What are the prevention measures of Birdflu?"
+            ],
+            "responses": [
+                "Avoid domesticated birds, Wash your hands, Avoid cross-contamination, Cook thoroughly , Steer clear of raw eggs."
+            ]
+        },
+        {
+            "tag": "Chickenpox in adults",
+            "patterns": [
+                "What are the symptoms of chickenpox ini adults?"
+            ],
+            "responses": [
+                "Flu-like symptoms such as fever, fatigue, loss of appetite, body aches, and headache. \nRed spots appear on the face and chest, eventually spreading over the entire body. The red spots develop into itchy, fluid-filled blisters. \nBlisters weep, become sores, form crusts, and heal."
+            ]
+        },
+        {
+            "tag": "Chickenpox in children",
+            "patterns": [
+                "What are the symptoms of chickenpox in children?"
+            ],
+            "responses": [
+                "Breathing problems.\nWeakness such as a child becoming wobbly on his/her feet.\nDrowsiness.\nFits (convulsions).\nPains or headaches which become worse despite paracetamol.\nBeing unable to take fluids, due to a severe rash in the mouth.\nA severe rash, or a rash which bruises or bleeds into the skin (haemorrhagic rash)."
+            ]
+        },
+        {
+            "tag": "Chickenpox",
+            "patterns": [
+                "What are the treatment of chickenpox?",
+                "How to cure chickenpox?",
+                "How chicken pox is treated?"
+            ],
+            "responses": [
+                "You can give paracetamol \nTake extra layers of clothes off your child if the room is normal room temperature.\nGive lots to drink.\nA sedating antihistamine (in a tablet or liquid medicine) may help with sleep if itch is a problem."
+            ]
+        },
+        {
+            "tag": "Cholera",
+            "patterns": [
+                "What are cholera symptoms and signs?"
+            ],
+            "responses": [
+                "Watery diarrhea (sometimes in large volumes)\nRice-water stools\nFishy odor to stools \nVomiting \nRapid heart rate. \nLoss of skin elasticity \nDry mucous membranes (dry mouth) \nLow blood pressure."
+            ]
+        },
+        {
+            "tag": "Cholera",
+            "patterns": [
+                "How can we prevent cholera",
+                "Remedies to prevent cholera?",
+                "Preventive measures to follow in case of cholera"
+            ],
+            "responses": [
+                "Make sure to drink and use safe water to brush your teeth, wash and prepare food, and make ice. ...\nWash your hands often with soap and safe water* ...\nUse latrines or bury your poop; do not poop in any body of water. ...\nCook food well (especially seafood), keep it covered, and eat it hot."
+            ]
+        },
+        {
+            "tag": "Dysentery",
+            "patterns": [
+                "  What are the symptoms of  dysentery?"
+            ],
+            "responses": [
+                "Diarrhea with belly cramps, Fever, Nausea and vomiting, Blood or mucus in the diarrhea."
+            ]
+        },
+        {
+            "tag": "Dysentery",
+            "patterns": [
+                "How can we prevent from dysentery?",
+                "Preventive measures of dysentry"
+            ],
+            "responses": [
+                "washing your hands with soap and warm water after using the toilet and regularly throughout the day. \nwashing your hands before handling, eating or cooking food. \navoiding sharing towels. \nwashing the laundry of an infected person on the hottest setting possible."
+            ]
+        },
+        {
+            "tag": "Inhalation Anthrax",
+            "patterns": [
+                "Whatare the symptoms of inahaltion anthrax?"
+            ],
+            "responses": [
+                "Fever and chills, Chest Discomfort, Shortness of breath, Confusion or dizziness, Cough, Nausea, vomiting, or stomach pains, Headache."
+            ]
+        },
+        {
+            "tag": "Anthrax",
+            "patterns": [
+                "What are the prevention of anthrax?",
+                "How can we prevent anthrax?",
+                "Preventive measures of anthrax"
+            ],
+            "responses": [
+                "Don't eat raw or undercooked meat. \nDon't handle or buy souvenirs made with animal hide or hair. \nDon't pet or touch animals."
+            ]
+        },
+        {
+            "tag": "Syphilis",
+            "patterns": [
+                "What are the prevention of Syphilis?",
+                "How can we prevent Syphilis?",
+                "Preventive measures of Syphilis"
+            ],
+            "responses": [
+                "Abstain or be monogamous, Use a latex condom, Avoid recreational drugs"
+            ]
+        },
+        {
+            "tag": "Aspergillosis",
+            "patterns": [
+                "What are the symptoms of aspergillosis?"
+            ],
+            "responses": [
+                "Fever and chills.\nA cough that brings up blood (hemoptysis)\nShortness of breath.\nChest or joint pain.\nHeadaches or eye symptoms.\n Skin lesions."
+            ]
+        },
+        {
+            "tag": "Aspergillosiss",
+            "patterns": [
+                "How can we prevent from aspergillosis?",
+                "What are the prevention of aspergillosis",
+                "Preventive measures of aspergillosis"
+            ],
+            "responses": [
+                "Avoid exposure.\nAvoid locations with excessive amounts of dust or mold, such as construction sites or compost piles.\nAvoid activities such as gardening or lawn mowing.\nWear a face mask or N95 mask."
+            ]
+        }
+    ]
+}
