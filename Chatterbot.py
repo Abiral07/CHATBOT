@@ -25,9 +25,9 @@ model_state=data["model_state"]
 
 model = FFNeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
-model.eval()
+model.eval()  #evaluation mode
 
-#create chat
+#create chat GUI
 from tkinter import *
 from tkinter.scrolledtext import *
 
@@ -41,7 +41,7 @@ def ask(event=None):
         sentence = e.get() 
         txt.insert(END,"\n"+"YOU: "+sentence)
         sentence = sentence.lower()
-        if sentence =="bye" :
+        if sentence =="quit" :
             ans=" Visit Again"
             txt.insert(END,"\n"+bot_name +":"+ans+"\n")
             time.sleep(1)
@@ -51,15 +51,11 @@ def ask(event=None):
             X = bag_of_words(sentence, all_words)
             X = X.reshape(1, X.shape[0])
             # pylint: disable=E1101
-            X = torch.from_numpy(X) #row fn reurns numy array
-            # pylint: enable=E1101
+            X = torch.from_numpy(X) #bow fn reurns numy array
 
             output = model(X)
-            # pylint: disable=E1101
             _, predicted = torch.max(output, dim=1)
-            # pylint: enable=E1101
             tag = tags[predicted.item()]
-            # pylint: disable=E1101
             probs = torch.softmax(output, dim=1)
             # pylint: enable=E1101
             prob = probs[0][predicted.item()]
@@ -78,7 +74,7 @@ def ask(event=None):
 
 txt = ScrolledText(root, width=110,  height=35, borderwidth=1)
 txt.grid(row=0,column=0,columnspan=2)
-# txt.insert(END,"Hello there! I'm here to help you in case you need any First-Aid advice. Let's chat! (type 'bye' to exit)"+"\n")
+txt.insert(END,"Hello there! I'm here to help you in case you need any First-Aid advice. Let's chat! (type 'quit' to exit)"+"\n")
 e= Entry(root,bg="#9D00FF", width=75,font=("Verdana"), fg="white", borderwidth=1)
 sendbtn = Button(root,text="Send", command=ask, width=10, font=("Verdana"), bg="#24a0ed", fg="white").grid(row=1,column=1, rowspan=2) 
 e.grid(row=1,column=0, rowspan=2)

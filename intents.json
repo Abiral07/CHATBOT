@@ -18,6 +18,19 @@
             ]
         },
         {
+            "tag": "Introduction",
+            "patterns": [
+                "Hi, what is your name?",
+                "who are you?",
+                "Is anyone there?",
+                "Introduce yourself.",
+                "name"
+            ],
+            "responses": [
+                "Hello, I am a friendly chatbot, created to adress your First-Aid related problems."
+            ]
+        },
+        {
             "tag": "goodbye",
             "patterns": [
                 "Bye",
@@ -642,14 +655,15 @@
             "patterns": [
                 "How is coronavirus diagnosed?",
                 "what to do if I have symptoms of corona?",
-                "where to test corona?"
+                "where to test corona?",
+                "Covid-19 diagonish"
             ],
             "responses": [
                 "COVID-19 is diagnosed with a laboratory test. Your healthcare provider may collect a sample of your saliva or swab your nose or throat to send for testing."
             ]
         },
         {
-            "tag": "coronavirus",
+            "tag": "corona positive",
             "patterns": [
                 "If I have a positive test for coronavirus, how long should I self-isolate?",
                 "What to do if i have tested positive for corona virus?",
@@ -1084,7 +1098,7 @@
             ]
         },
         {
-            "tag": "Kidney Stones",
+            "tag": "Kidney Stones cure",
             "patterns": [
                 "How are kidney stones treated?",
                 "Treatment for Kidney Stones",
@@ -1216,7 +1230,7 @@
             ]
         },
         {
-            "tag": "insomnia",
+            "tag": "insomnia symptoms",
             "patterns": [
                 "What are the symptoms of insomnia?",
                 "what body changes we feel if we suffer from insomnia?",
@@ -1308,7 +1322,7 @@
             ]
         },
         {
-            "tag": "testosterone replacement therapy",
+            "tag": "testosterone replacement",
             "patterns": [
                 "Who shouldn't take testosterone replacement therapy?",
                 "who shouldn't get testosterone replacement therapy?"
@@ -1529,7 +1543,7 @@
             ]
         },
         {
-            "tag": "Itchy eyes",
+            "tag": "Itchy eyes treatment",
             "patterns": [
                 "What are the treatment for itchy eyes?",
                 "How to cure itchy eyes?",
@@ -1541,7 +1555,7 @@
             ]
         },
         {
-            "tag": "PCOS",
+            "tag": "PCOS symptoms",
             "patterns": [
                 "What are the symptoms of PCOS?"
             ],
@@ -1550,7 +1564,7 @@
             ]
         },
         {
-            "tag": "PCOS",
+            "tag": "PCOS risks",
             "patterns": [
                 "How PCOS affects your body?",
                 "what are the risk of PCOS?"
@@ -1560,7 +1574,7 @@
             ]
         },
         {
-            "tag": "PCOS",
+            "tag": "PCOS treatment",
             "patterns": [
                 "What are the treatments for PCOS?",
                 "How PCOS are treated?",
@@ -1571,7 +1585,7 @@
             ]
         },
         {
-            "tag": "Typhoid",
+            "tag": "Typhoid symptoms",
             "patterns": [
                 "What are the symptoms of Typhoid?",
                 "How will I know if I suffer from typhoid?",
@@ -1633,7 +1647,7 @@
             ]
         },
         {
-            "tag": "Cancer",
+            "tag": "Cancer symptoms",
             "patterns": [
                 "What are the symptoms of cancer?"
             ],
@@ -1655,7 +1669,7 @@
             "context_set": "       "
         },
         {
-            "tag": "Hepatitis B",
+            "tag": "Hepatitis B prevention",
             "patterns": [
                 "How can we prevent from Hepatitis B?",
                 "Preventive measures of hepatitis B"
@@ -1665,7 +1679,7 @@
             ]
         },
         {
-            "tag": "Tuberculosis",
+            "tag": "Tuberculosis symptoms",
             "patterns": [
                 "What are the symptoms of Tuberculosis?"
             ],
@@ -1684,7 +1698,7 @@
             ]
         },
         {
-            "tag": "Birdflu",
+            "tag": "Birdflu symptoms",
             "patterns": [
                 "What are the symptoms of Birdflu?"
             ],
@@ -1732,7 +1746,7 @@
             ]
         },
         {
-            "tag": "Cholera",
+            "tag": "Cholera symptoms",
             "patterns": [
                 "What are cholera symptoms and signs?"
             ],
@@ -1752,7 +1766,7 @@
             ]
         },
         {
-            "tag": "Dysentery",
+            "tag": "Dysentery symptoms",
             "patterns": [
                 "  What are the symptoms of  dysentery?"
             ],
@@ -1802,7 +1816,7 @@
             ]
         },
         {
-            "tag": "Aspergillosis",
+            "tag": "Aspergillosis symptoms",
             "patterns": [
                 "What are the symptoms of aspergillosis?"
             ],

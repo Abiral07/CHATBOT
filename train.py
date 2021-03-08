@@ -9,12 +9,12 @@ from torch.utils.data import Dataset,DataLoader
 from model import FFNeuralNet
 with open('intents.json', 'r',encoding='cp437') as f:
     intents = json.load(f)
-from nlp_fn import  tokenize, stem, bag_of_words
 
+from nlp_fn import  tokenize, stem, bag_of_words, stop_words
 #empty list   
 all_words = []
 tags = []
-xy = [] #holds both patterns and tags
+xy = [] #holds both patterns and tags xy= [(['name'], 'Introduction'), (['Bye'], 'goodbye'),.......]
 
 # loop through each sentence in our intents patterns
 for intent in intents['intents']:
@@ -33,18 +33,18 @@ for intent in intents['intents']:
     
 # stem and lower each word
 ignore_words = ['?', '.', '!']
+ignore_words.extend(stop_words)
 all_words = [stem(w) for w in all_words if w not in ignore_words]
 # remove duplicates and sort
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
-# print(all_words)
-# print(tags)
-# print(xy)
+# print(all_words[10:20])
+# print(tags[10:20])
+# print(xy[10:20])
 
 # create training data
 X_train = [] #bow
 y_train = [] #associated label for each tag
-
 for(pattern_sentence, tag) in xy:
      # X: bag of words for each pattern_sentence
     bag = bag_of_words(pattern_sentence, all_words)
@@ -53,7 +53,7 @@ for(pattern_sentence, tag) in xy:
     label = tags.index(tag)
     y_train.append(label)
     
-#conversion to numpy array#x y to feature in a label 
+#conversion to numpy array #x y to feature in a label 
 X_train = np.array(X_train)
 y_train = np.array(y_train)
 
@@ -86,6 +86,7 @@ num_epochs= 70
     
 dataset = ChatDataset()
 train_loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True)
+
 # pylint: disable=E1101
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 # pylint: enable=E1101
@@ -108,7 +109,7 @@ def fit(epochs,max_lr,model,device,train_loder,opt_func,loss_func):
     for epoch in range(epochs):
         lrs=[]
         for (words, labels) in train_loader:
-            words = words.to(device)
+            words = words.to(device) #bow
             # pylint: disable=E1101
             labels = labels.to(dtype=torch.long).to(device)
             # pylint: enable=E1101
@@ -118,9 +119,9 @@ def fit(epochs,max_lr,model,device,train_loder,opt_func,loss_func):
             loss = loss_func(outputs, labels)
             
             # Backward and optimize
+            opt_func.zero_grad()
             loss.backward()
             optimizer.step()
-            opt_func.zero_grad()
             # Record & update learning rate
             current_lr = get_lr(optimizer)
             lrs.append(current_lr)
@@ -131,7 +132,7 @@ def fit(epochs,max_lr,model,device,train_loder,opt_func,loss_func):
         # print(history)
         if (epoch+1) % 10 == 0:
             #in every 10stp we print current epoch and all epoch
-            print (f'Epoch [{epoch+1}/{epochs}], Loss: {loss.item():.4f}, lr:{current_lr}')
+            print (f'Epoch [{epoch+1}/{epochs}], Loss: {loss.item():.6f}, lr:{current_lr:.6f}')
             
     print(f'final loss: {loss.item():.4f}')
     return history
